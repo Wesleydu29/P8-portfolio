@@ -198,10 +198,11 @@ footer {
     }
 
     header img {
-        height: 100px;
+        height: 300px;
     }
 
     header .navbar {
+        margin-top: 20px;
         flex-direction: column;
         width: 100%;
         gap: 15px;
