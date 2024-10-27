@@ -60,10 +60,10 @@ header .navbar {
     padding: 50px;
     flex-wrap: wrap;
     justify-content: center;
+    gap: 15px;
 }
 
 .project-card {
-    margin: 15px;
     border: 1px solid #ddd;
     border-radius: 5px;
     width: 300px;
@@ -231,6 +231,7 @@ footer {
     }
 
     .project-card {
+        margin-bottom: 15px;
         width: 100%;
     }
 
