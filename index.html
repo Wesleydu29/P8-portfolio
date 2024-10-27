@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Développeur Web passionné avec un Bac +2 et en cours de formation de bachelor Full Stack, découvrez mes projets et contactez-moi pour développer vos idées numériques.">
+    <title>Mon site perso</title>
+    <link rel="icon" href="images/logo.png" type="mon site perso">
+    <link rel="stylesheet" href="style.css">
+    <script type="application/ld+json">
+        {
+          "@context": "https://schema.org",
+          "@type": "Person",
+          "name": "Wesley Goarant",
+          "jobTitle": "Développeur Web",
+          "description": "Développeur Web spécialisé en développement Front-End, HTML, CSS, JavaScript, et frameworks modernes comme React et Node.js.",
+          "url": "https://www.votre-site.com",
+          "image": "https://www.votre-site.com/images/portrait-site-perso.jpg",
+          "sameAs": [
+            "https://www.linkedin.com/in/wesley-goarant-6a718a23b/",
+            "https://github.com/Wesleydu29",
+          ],
+          "worksFor": {
+            "@type": "Organization",
+            "name": "freelance"
+          },
+          "knowsAbout": ["HTML", "CSS", "JavaScript", "React","Vue.js" "Node.js", "MongoDB", "Git", "SEO", "Développement Full Stack"],
+          "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Rennes",
+            "addressCountry": "France"
+          }
+        }
+        </script>
+        
+</head>
+<body>
+    <header>
+        <img src="images/logo.png" alt="logo mon site perso">
+        <div class="navbar">
+            <a href="images/cv_portfolio.png" target="_blank">Mon parcours</a>
+            <a href="#container-form">Contactez moi</a>
+            <a href="#projects">Mes projets</a>
+
+        </div>
+    </header>
+
+    <section class="portrait">
+        <img src="images/portrait2.jpg">
+        <div class="portrait-content">
+            <h2>À propos</h2>
+            <p>Développeur Web depuis plus d'un an, animé par l'envie d'en apprendre davantage chaque jour. Diplomé d'un Bac +2 de développeur web chez Openclassrooms, 
+                j'attaque cette année un bachelor développeur Full Stack au sein de l'EPSI. 
+                Le numérique est notre avenir, développons-le ensemble</p>
+        </div>
+    </section>
+
+    <div>
+        <h2>Mes Projets</h2>
+    </div>
+
+    <section id="projects" class="projects">
+        <div class="project-card">
+            <img src="images/bookie.jpg" alt="Projet Booki">
+            <h3>Projet Booki</h3>
+            <p>Création d'un site de réservation de vacance, en HTML5 et CSS3</p>
+        </div>
+        <div class="project-card">
+            <img src="images/appartement-paris-v.png" alt="Projet Sophie Bluel">
+            <h3>Projet Sophie Bluel</h3>
+            <p>Création d'un site dynamique, en Javascript, pour le compte d'une architecte.</p>
+        </div>
+        <div class="project-card">
+            <img src="images/nina_carducci.webp" alt="projet Nina Carducci">
+            <h3>Projet Nina Carducci</h3>
+            <p>Refonte et optimisation du site d'une photographe</p>
+        </div>
+        <div class="project-card">
+            <img src="images/kasa.webp" alt="projet Kasa">
+            <h3>Projet Kasa</h3>
+            <p>Site de location immobilière avec la bibliothèque React.</p>
+        </div>
+        <div class="project-card">
+            <img src="images/m_v_g.jpg" alt="Projet Mon vieux grimoire">
+            <h3>Projet "Mon vieux grimoire"</h3>
+            <p>Création du back-end d'un site de notation de livre, Nodejs, Express et MongoDB</p>
+        </div> 
+        <div class="project-card">
+            <img src="images/m_m.jpg" alt="Projet Menu Maker">
+            <h3>Projet Menu Maker</h3>
+            <p>Gestion de projet Agile, pour une application de restaurateur.</p>
+        </div>
+    </section>
+    <section>
+            <h2> Un projet ? Contactez-moi</h2>
+        <div id="container-form" class="container-form">
+            <form action="#" method="POST">
+                <label for="name">Nom :</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email :</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Message :</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+
+                <button type="submit">Envoyer</button>
+            </form>
+        </div>
+    </section>
+    <footer>
+        <p>&copy; 2024 Mon site perso. Tous droits réservés.</p>
+    </footer>
+</body>
+</html>
